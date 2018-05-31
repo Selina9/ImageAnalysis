@@ -8,3 +8,9 @@ It reads in multiple image files taken of cells after performing a comet assay a
 - height
 - % intensity in the tail
 
+The arrays are then written to file in a spreadsheet for easy manipulation and readability for the user.
+Alongside data output, the analysed comet plots are saved to file for ease of reference for the data.
+
+The spreadsheet consists of 4 sheets; area, width, height and tail intensty %.
+These measurements are then further split into 2 kinds, good and bad. Good data is that of comets that have been deemed to be correct and not contaminatin or overlap. Bad data is from objects recognised as too large, too small or outside the fiducial region of the image. This allows all the data to be offered to the user, and with reference to the plots that are also output they can perofrm any further analysis required.
+
